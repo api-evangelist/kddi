@@ -1,0 +1,92 @@
+aid: kddi
+name: KDDI
+description: >-
+  KDDI Corporation is a Japanese multinational telecommunications operator
+  headquartered in Tokyo, providing mobile, fixed-line, broadband, and
+  enterprise ICT services. KDDI markets its consumer mobile services under the
+  au brand, alongside UQ mobile and povo, and serves enterprise customers
+  globally through KDDI Global and KDDI America. The company operates the
+  KDDI Open API for Developers portal exposing inquiry-gated product APIs
+  including the au PAY Mini App platform, an XR/MEC low-latency application
+  API, a PPM consent management API, and an au mobile Identification Support
+  Service for KYC/identity verification. KDDI also runs the au OPEN DEVICE
+  DEVELOPER SITE for cellular module device certification, and a KDDI Cloud
+  Platform Service knowledge site with developer API references for cloud
+  infrastructure. In 2025 KDDI became an equity partner in Aduna, the
+  GSMA/Ericsson-backed network API venture aggregating CAMARA-aligned
+  carrier APIs (Number Verify, SIM Swap, Quality on Demand, Device Location)
+  across global operators. Public OpenAPI specifications are not openly
+  published; API access is provided through contact/inquiry workflows after
+  partner onboarding.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Telecommunications
+  - Mobile Network Operator
+  - Carrier
+  - Japan
+  - au
+  - UQ Mobile
+  - povo
+  - Network API
+  - CAMARA
+  - Aduna
+  - Identity Verification
+  - Consent Management
+  - Mini App
+  - au PAY
+  - XR
+  - MEC
+  - Edge Computing
+  - 5G
+  - Cloud Platform
+  - IoT
+url: https://raw.githubusercontent.com/api-evangelist/kddi/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.kddi.com/english/
+  - type: CorporateJapan
+    url: https://www.kddi.com/
+  - type: DeveloperPortal
+    url: https://developers.apis.kddi.com/
+  - type: OpenDeviceDeveloperSite
+    url: https://open-dev.kddi.com/english/overview
+  - type: CloudPlatformDeveloperGuide
+    url: https://doc.cloud-platform.kddi.ne.jp/developer/
+  - type: KDDIGlobal
+    url: https://global.kddi.com/
+  - type: KDDIAmerica
+    url: https://us.kddi.com/
+  - type: au
+    url: https://www.au.com/
+  - type: povo
+    url: https://povo.jp/
+  - type: UQMobile
+    url: https://www.uqwimax.jp/
+  - type: News
+    url: https://news.kddi.com/kddi/corporate/english/newsrelease/
+  - type: InvestorRelations
+    url: https://www.kddi.com/english/corporate/ir/
+  - type: Sustainability
+    url: https://www.kddi.com/english/corporate/csr/
+  - type: Careers
+    url: https://www.kddi.com/english/recruit/
+  - type: GitHub
+    url: https://github.com/KDDI
+  - type: Aduna
+    url: https://adunaglobal.com/
+  - type: CAMARA
+    url: https://camaraproject.org/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/kddi-corporation
+  - type: YouTube
+    url: https://www.youtube.com/@KDDIofficialchannel
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
