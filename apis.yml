@@ -44,6 +44,10 @@ accessModel:
 position: Producing
 access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kddi.png
+x-docs-platform: redoc
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
+x-docs-hosting: aws-cloudfront
 tags:
   - Telecommunications
   - Mobile Network Operator
