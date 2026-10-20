@@ -22,6 +22,7 @@ edges:
     - KnowYourCustomerAgeVerification
     - KnowYourCustomerFill-in
     - KnowYourCustomerMatch
+    - NetworkServiceAreas
     - NumberRecycling
     - NumberVerification
     - OTPValidation
@@ -31,7 +32,27 @@ edges:
     api_families_basis: MAINTAINERS.MD (maintains, not implements)
     detected_by: sweep-telco-network-apis.py
     detected: '2026-10-12'
+- partner_name: Genesys (own)
+  partner: genesys
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://appfoundry.genesys.com/filter/genesyscloud/listing/7cf81e6e-c1c7-4acb-985a-755e2e49fd93
+  mirror_of: genesys/integrations/genesys-integration-edges.yml
+  apps:
+  - Cloud Calling for Genesys Cloud
+  listing_count: 1
+  detected: '2026-10-20'
+  detected_by: mirror-platform-listings.py
+  category: telephonyAndTechnology
 generated: '2026-10-12'
 method: searched
 checked:
+- genesys/integrations/genesys-integration-edges.yml
 - https://raw.githubusercontent.com/camaraproject/camara-landscape/main/landscape.yml
+source:
+- genesys/integrations/genesys-integration-edges.yml

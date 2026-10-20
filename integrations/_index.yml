@@ -28,6 +28,7 @@
     - KnowYourCustomerAgeVerification
     - KnowYourCustomerFill-in
     - KnowYourCustomerMatch
+    - NetworkServiceAreas
     - NumberRecycling
     - NumberVerification
     - OTPValidation
@@ -37,5 +38,18 @@
     api_families_basis: MAINTAINERS.MD (maintains, not implements)
     detected_by: sweep-telco-network-apis.py
     detected: '2026-10-12'
+  status: not-a-workflow
+  arazzo: null
+- slug: kddi-genesys-own
+  label: Genesys (own)
+  partner: genesys
+  partner_name: Genesys (own)
+  category: telephonyAndTechnology
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appfoundry.genesys.com/filter/genesyscloud/listing/7cf81e6e-c1c7-4acb-985a-755e2e49fd93
+  source: edge
+  relationship: platform-app
   status: not-a-workflow
   arazzo: null
