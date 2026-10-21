@@ -115,6 +115,45 @@ edges:
     identity_source: peeringdb net website by the participant's ASN (labelled provenance step)
   detected_by: sweep-network-edge.py
   first_seen: '2026-10-20'
+- partner_name: App Defense Alliance certified products
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://cert.appdefensealliance.org/certifications/10155
+  category: mobile app security certification
+  contract_reference:
+    register: App Defense Alliance certified products (cert.appdefensealliance.org/certifications)
+    standard: ADA Mobile Application Security Profile / OWASP MASVS (MASA)
+    spec_file: null
+    role: ada-certified-developer
+    registered_name: KDDI株式会社
+    register_id: https://cert.appdefensealliance.org/certifications/10155
+    matched_domain: kddi.com
+    matched_by: domain
+    domain_source: package id (reverse domain)
+    certified_products:
+    - product: Mobile application (ADA Mobile App Profile / MASA)
+      product_type: Mobile application (ADA Mobile App Profile / MASA)
+      certifier: App Defense Alliance (authorized lab + certification body)
+      example_product: My au(マイエーユー)-料金・ギガ残量の確認アプリ
+      example_certificate: https://cert.appdefensealliance.org/certifications/10155
+      assurance_levels: []
+      newest_expiry: '2027-03-08'
+      lapsed: false
+      lapsed_note: lapsed = no certificate of this type is Valid and unexpired today
+    products_sample:
+    - My au(マイエーユー)-料金・ギガ残量の確認アプリ
+    labs:
+    - DEKRA
+    signal_note: certified_products = ONE entry per ADA product type (profile family), never per app or certificate;
+      labs are assessors (context, never linked)
+    detected_by: sweep-mobile-sdk-index.py
+    detected: '2026-10-21'
+  detected_by: sweep-mobile-sdk-index.py
+  first_seen: '2026-10-21'
 generated: '2026-10-12'
 method: searched
 checked:
@@ -124,5 +163,9 @@ checked:
 - https://www.peeringdb.com/api/fac
 - https://www.peeringdb.com/api/ix
 - https://www.peeringdb.com/api/net
+- https://cdn.cocoapods.org/all_pods.txt
+- https://cert.appdefensealliance.org/certifications
+- https://play.google.com/sdks
+- https://search.maven.org/solrsearch/select
 source:
 - genesys/integrations/genesys-integration-edges.yml
